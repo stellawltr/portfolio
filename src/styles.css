@@ -1,0 +1,63 @@
+body {
+  font-family: var(--primary-font);
+  padding-top: 30px;
+}
+
+.btn.btn-primary.btn-lg,
+.btn.btn-secondary.btn-lg {
+  background: var(--button-background);
+  border-color: var(--button-background);
+}
+.btn.btn-primary.btn-lg:hover,
+.btn.btn-secondary.btn-lg:hover,
+.btn.btn-secondary.btn-lg.clicked {
+  background-color: rgb(103, 101, 169);
+}
+h1,
+a,
+h2,
+h5 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+  color: var(--primary-font-color);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-1,
+.box-2 {
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  flex-direction: column;
+}
+
+a.back,
+a.e-mail {
+  color: var(--primary-font-color);
+}
+a.back:hover,
+a.e-mail:hover,
+a.e-mail:visited {
+  color: rgb(43, 41, 41);
+}
+#contact-me {
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+  font-weight: 200;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+:root {
+  --primary-font: "poppins";
+  --button-background: rgb(55, 54, 91);
+  --primary-font-color: rgb(48, 47, 47);
+}
