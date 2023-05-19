@@ -1,6 +1,7 @@
 body {
   font-family: var(--primary-font);
   padding-top: 30px;
+  background-color: whitesmoke;
 }
 
 .btn.btn-primary.btn-lg,
@@ -13,6 +14,11 @@ body {
 .btn.btn-secondary.btn-lg.clicked {
   background-color: rgb(103, 101, 169);
 }
+
+h1 {
+  font-size: 60px;
+}
+
 h1,
 a,
 h2,
@@ -57,7 +63,7 @@ a.e-mail:visited {
 }
 
 :root {
-  --primary-font: "poppins";
+  --primary-font: 'raleway';
   --button-background: rgb(55, 54, 91);
   --primary-font-color: rgb(48, 47, 47);
 }
