@@ -96,7 +96,7 @@ a.e-mail:visited {
   --primary-font-color: rgb(48, 47, 47);
 }
 
-@media(min-width:800px){
+@media(min-width:768px){
   .container{
     max-width: 900px;
   }
