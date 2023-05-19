@@ -7,7 +7,8 @@ body {
 .btn.btn-outline-dark.btn-lg {
   padding: 15px;
   margin: 0px 15px;
-  border: 0.5px solid;
+  border: 2px solid;
+  
 }
 .btn.btn-outline-dark.btn-lg:hover {
   background-color: var(--primary-font-color);
@@ -38,9 +39,10 @@ h5 {
 .box-1,
 .box-2 {
   border: 1px solid var(--primary-font-color);
-
+margin-top: 20px;
   padding: 10px 10px 10px 10px;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 .box-1 {
   border-right-style: none;
@@ -61,13 +63,14 @@ a.e-mail:visited {
   transition: ease-in-out 0.15s;
 }
 .primary-link {
-  border: 0.5px solid;
+  border: 2px solid;
   border-radius: 4px;
   border-color: var(--primary-font-color);
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   box-shadow: var(--primary-font-color);
+  font-size: 1rem;
 }
 #contact-me {
   display: flex;
@@ -83,6 +86,11 @@ a.e-mail:visited {
   margin-bottom: 30px;
 }
 
+.more-to-come{
+  font-size: 100px;
+  font-weight: 400;
+
+}
 :root {
   --primary-font: "raleway";
   --primary-font-color: rgb(48, 47, 47);
