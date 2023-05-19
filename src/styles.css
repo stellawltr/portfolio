@@ -95,3 +95,9 @@ a.e-mail:visited {
   --primary-font: "raleway";
   --primary-font-color: rgb(48, 47, 47);
 }
+
+@media(min-width:800px){
+  .container{
+    max-width: 900px;
+  }
+}
