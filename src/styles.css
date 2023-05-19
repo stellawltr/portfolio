@@ -4,15 +4,9 @@ body {
   background-color: beige;
 }
 
-.btn.btn-outline-dark.btn-lg{
+.btn.btn-outline-dark.btn-lg {
   padding: 15px;
   margin: 0px 15px;
-}
-
-.btn.btn-primary.btn-lg:hover,
-.btn.btn-secondary.btn-lg:hover,
-.btn.btn-secondary.btn-lg.clicked {
-  background-color: rgb(103, 101, 169);
 }
 
 h1 {
