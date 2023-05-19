@@ -1,14 +1,14 @@
 body {
   font-family: var(--primary-font);
   padding-top: 30px;
-  background-color: whitesmoke;
+  background-color: beige;
 }
 
-.btn.btn-primary.btn-lg,
-.btn.btn-secondary.btn-lg {
-  background: var(--button-background);
-  border-color: var(--button-background);
+.btn.btn-outline-dark.btn-lg{
+  padding: 15px;
+  margin: 0px 15px;
 }
+
 .btn.btn-primary.btn-lg:hover,
 .btn.btn-secondary.btn-lg:hover,
 .btn.btn-secondary.btn-lg.clicked {
@@ -36,11 +36,14 @@ h5 {
 }
 .box-1,
 .box-2 {
-  border: 1px solid black;
+  border: 1px solid var(--primary-font-color);
+
   padding: 10px 10px 10px 10px;
   flex-direction: column;
 }
-
+.box-1 {
+  border-right-style: none;
+}
 a.back,
 a.e-mail {
   color: var(--primary-font-color);
@@ -54,7 +57,7 @@ a.e-mail:visited {
   display: flex;
   justify-content: center;
   font-family: var(--primary-font);
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .buttons {
@@ -64,7 +67,6 @@ a.e-mail:visited {
 }
 
 :root {
-  --primary-font: 'raleway';
-  --button-background: rgb(55, 54, 91);
+  --primary-font: "raleway";
   --primary-font-color: rgb(48, 47, 47);
 }
