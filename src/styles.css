@@ -4,6 +4,11 @@ body {
   background-color: beige;
 }
 
+.hero {
+  background-color: #F4F4F4;
+  padding: 5px;
+}
+
 .btn.btn-outline-dark.btn-lg {
   padding: 15px;
   margin: 0px 15px;
