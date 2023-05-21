@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   padding: 5px;
 }
 
@@ -17,20 +17,25 @@ body {
 .btn.btn-outline-dark.btn-lg:hover {
   background-color: var(--primary-font-color);
 }
+
+.hero p {
+  font-size: 40px;
+}
 h1 {
   font-size: 80px;
-  font-weight: 900;
-  margin-top: 50px;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 20px;
 }
 
-h1,
 a,
+h1,
 h2,
-h5 {
+h4,
+h5,
+h6 {
   display: flex;
   justify-content: center;
   font-family: var(--primary-font);
@@ -103,5 +108,14 @@ a.e-mail:visited {
 @media (min-width: 768px) {
   .container {
     max-width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  .hero p{
+    font-size: 30px;
   }
 }
