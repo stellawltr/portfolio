@@ -46,6 +46,13 @@ h6 {
   display: flex;
   justify-content: space-evenly;
 }
+
+.about-me-box{
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .box-1,
 .box-2 {
   border: 1px solid var(--primary-font-color);
@@ -54,9 +61,7 @@ h6 {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.box-1 {
-  border-right-style: none;
-}
+
 a.back,
 a.e-mail {
   color: var(--primary-font-color);
