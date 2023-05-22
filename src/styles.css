@@ -13,6 +13,7 @@ body {
   padding: 15px;
   margin: 0px 15px;
   border: 2px solid;
+  text-shadow: 10px ;
 }
 .btn.btn-outline-dark.btn-lg:hover {
   background-color: var(--primary-font-color);
@@ -63,12 +64,12 @@ h6 {
 }
 
 a.back,
-a.e-mail {
+a.contact-links {
   color: var(--primary-font-color);
 }
 a.back:hover,
-a.e-mail:hover,
-a.e-mail:visited {
+a.contact-links:hover,
+a.contact-links:visited {
   color: rgb(43, 41, 41);
 }
 .primary-link:hover {
