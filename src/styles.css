@@ -13,7 +13,7 @@ body {
   padding: 15px;
   margin: 0px 15px;
   border: 2px solid;
-  text-shadow: 10px ;
+  text-shadow: 10px;
 }
 .btn.btn-outline-dark.btn-lg:hover {
   background-color: var(--primary-font-color);
@@ -71,7 +71,10 @@ a.back:hover,
 a.contact-links:hover,
 a.contact-links:visited {
   color: rgb(43, 41, 41);
+  font-weight: bold;
+  text-decoration: none;
 }
+
 .primary-link:hover {
   background-color: var(--primary-font-color);
   text-decoration: none;
@@ -102,10 +105,6 @@ a.contact-links:visited {
   margin-bottom: 30px;
 }
 
-.more-to-come {
-  font-size: 100px;
-  font-weight: 400;
-}
 :root {
   --primary-font: "raleway";
   --primary-font-color: rgb(48, 47, 47);
