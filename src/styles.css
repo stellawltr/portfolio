@@ -2,19 +2,22 @@ body {
   font-family: var(--primary-font);
   margin-top: 100px;
   background-color: rgb(245, 245, 219);
+  line-height: 1.8;
 }
 
 .hero {
   background-color: rgba(255, 255, 255, 0.4);
-
-  padding: 4px;
+  padding: 40px;
+  margin-bottom: 20px;
 }
 
 .btn.btn-outline-dark.btn-lg {
   padding: 15px;
   margin: 0px 15px;
-  border: 2px solid;
+  border: 1px solid;
   text-shadow: 10px;
+  font-size: 1rem;
+  border-radius: 0px;
 }
 .btn.btn-outline-dark.btn-lg:hover {
   background-color: var(--primary-font-color);
@@ -83,10 +86,10 @@ a.contact-links:visited {
   transition: ease-in-out 0.15s;
 }
 .primary-link {
-  border: 2px solid;
-  border-radius: 4px;
+  border: 1.5px solid;
+  border-radius: 0px;
   border-color: var(--primary-font-color);
-  padding: 20px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
   box-shadow: var(--primary-font-color);
@@ -131,4 +134,8 @@ a.contact-links:visited {
   .box-2 {
     font-size: 18px;
   }
+}
+
+.navbar-toggler-icon:focus{
+color: red;
 }
